@@ -1,0 +1,98 @@
+body {
+  font-family: 'Muli', sans-serif;
+  color: #FCFDFF;
+  height: 100%;
+}
+
+#header{
+  min-height: 400px;
+  background-image:url("media/hero.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroText {
+  font-size: 34px;
+  font-weight: 300;
+  letter-spacing: .7px;
+
+  border:4px solid #FF4400;
+  padding: 12px 26px 12px 26px;
+  margin: 0;
+}
+
+.heroTextContainer-small {
+  margin-left:8%;
+  margin-top: 20%;
+}
+
+.heroTextContainer-vertical {
+  margin-left:18%;
+  margin-top: 150px;
+}
+
+.heroTextContainer-horizontal {
+  margin-left:26%;
+  margin-top: 150px;
+}
+
+.content {
+  background-color: #0B0936;
+  font-weight: 300;
+}
+
+.contentHeader {
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: .7px;
+  margin: 0;
+}
+
+.contentHeaderUnderline {
+  margin: 30px 0 30px 0;
+  border: 2px solid #FF4400;
+  max-width: 200px;
+}
+
+.bodyText {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.bodyText a {
+  color: #FCFDFF;
+  text-decoration: underline;
+}
+
+.spacerContent{
+  height: 50px;
+}
+
+.footer {
+  background-color: #002C4F;
+  width: 100%;
+}
+
+.footerText p{
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.socialLinks {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.socialLinks a {
+  color: #FCFDFF;
+  margin: 0 16px 0 16px;
+}
+
+/* NEED HELP HERE */
+.spacerFooter{
+  min-height: 100px;
+}
