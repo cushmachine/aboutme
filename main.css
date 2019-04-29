@@ -6,10 +6,7 @@ body {
 
 #header{
   min-height: 400px;
-  background-image:url("media/hero.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #FFBF00;
 }
 
 .heroText {
