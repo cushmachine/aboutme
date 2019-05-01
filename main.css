@@ -6,7 +6,10 @@ body {
 
 #header{
   min-height: 400px;
-  background-color: #FFBF00;
+  background-image: url("media/hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .heroText {
@@ -19,18 +22,13 @@ body {
   margin: 0;
 }
 
-.heroTextContainer-small {
-  margin-left:4%;
-  margin-top: 20%;
+.heroImage {
+  max-width: 100%;
+  height: auto;
 }
 
-.heroTextContainer-vertical {
+.heroTextContainer {
   margin-left:18%;
-  margin-top: 150px;
-}
-
-.heroTextContainer-horizontal {
-  margin-left:26%;
   margin-top: 150px;
 }
 
