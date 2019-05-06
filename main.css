@@ -27,7 +27,13 @@ body {
   height: auto;
 }
 
-.heroTextContainer {
+.heroTextContainerSmall {
+  margin-left:10%;
+  margin-top: 100px;
+}
+
+
+.heroTextContainerLarge {
   margin-left:12%;
   margin-top: 150px;
 }
